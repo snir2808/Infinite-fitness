@@ -1,0 +1,482 @@
+/* body{
+  text-align: center;
+  margin: auto;
+  background-image: url('/IMG_5969.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  
+} */
+#backgroundimg{
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+#logo{
+  max-width: 550px;
+  max-height: 550px;
+}
+.h1_logo{
+  color: white;
+  font-size: 70px;
+  position: relative;
+  bottom: 150px;
+  font-family: 'Heebo', sans-serif;
+}
+.infinity_red{
+  color: red;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+}
+.abut{
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 23px;
+}
+.h3_abut{
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size:25px;
+}
+.h2_abut{
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 35px;
+}
+.div_abut{
+  background-color: #313131;
+  position: relative;
+  top: 10px;
+
+}
+.arrow{
+  width: 20px;
+  height: 35px;
+  transform: rotate(90deg)
+}
+
+.after_the_slide{
+  background: none;
+  width: 200px;
+  height: 60px;
+  border: 3.5px solid white;
+  border-radius: 5px;
+  font-family:'Heebo', sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+.div_info{
+  background-color:#313131;
+  height: 730px;
+  width: auto;
+}
+.h2_info{
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 35px;
+  position: relative;
+  top: 30px;
+}
+.h3_info{
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  margin-top: 55px;
+  font-size: 35px;
+}
+.contener{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.h3_div_info{
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.div_info1{
+  flex: 1;
+  color: white;
+  font-size: 22px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+}
+.div_info2{
+  flex: 1;
+  color: white;
+  font-size: 22px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+}
+.div_info3{
+  flex: 1;
+  color: white;
+  font-size: 22px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.info_img{
+ width: 92px;
+ height: 95px;
+ margin-bottom:-33px;
+}
+
+.prson_trein{
+  display: flex;
+ justify-content: center;
+}
+/* .groop_trein{
+  flex: 1;
+  margin-right: 160px;
+} */
+h4{
+  font-size: 40px;
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  margin-bottom: -25px;
+}
+
+.contct{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 60px;
+}
+.div_contct1{
+  flex: 1;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  border-radius: 10px;
+  margin-right: 100px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.div_contct2{
+  flex: 1;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.div_contct3{
+  flex: 1;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  margin-left: 100px;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.img_contact_logoi{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.img_contact_logof{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.img_contact_logow{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.img_contact{
+  margin-top: 25px;
+  margin-bottom: -35px;
+  width: 80px;
+  height: 80px;
+}
+.img_contactwaze{
+  margin-top: 25px;
+  margin-bottom: -35px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+.img_contact_call{
+  margin-top: 25px;
+  margin-bottom: -35px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+#team{
+  cursor: pointer;
+}
+#personal{
+  cursor: pointer;
+  background-color: #A11111;
+  margin-top: 36px;
+  width: 280px;
+  height: 90px;
+}
+#join{
+  cursor: pointer;
+}
+
+.popUp{
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+.groop_t{
+  justify-content: center;
+  border: 0;
+  position: absolute;
+  border: 5px solid white;
+  border-radius: 15px;
+  top: 1572px;
+
+}
+
+
+.tab {
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  display: flex;
+  position: absolute;
+  top: 2130px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #A11111;
+  border: 2px solid white; 
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  justify-content: center;
+
+}
+
+
+.flip-2-hor-top-2 {
+	-webkit-animation: flip-2-hor-top-2 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-2-hor-top-2 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@keyframes flip-2-hor-top-2 {
+  0% {
+    -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: translateY(0%) rotateX(360deg);
+            transform: translateY(0%) rotateX(360deg);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
+
+  .hi-slide { position: relative; width: 754px; height: 292px; margin: 115px auto 0; }
+  
+.hi-slide .hi-next,
+.hi-slide .hi-prev 
+  { position: absolute;
+    top: 50%; 
+    width: 40px;
+    height: 40px; 
+    margin-top: -20px;     
+      border-radius: 50px; 
+        
+      
+    line-height: 40px;
+    text-align: center; 
+    cursor: pointer;
+    background-color: #fff; 
+    color: black;               
+    transition: all 0.6s;
+    font-size: 20px; 
+      font-weight: bold;
+  }
+  .hi-slide .hi-next:hover, 
+  .hi-slide .hi-prev:hover 
+  {
+  opacity: 1; 
+  background-color: #fff;  
+  }
+  
+  .hi-slide .hi-prev { left: -60px; }
+  
+.hi-slide .hi-prev::before { content: '<'; }
+.hi-slide .hi-next { right: -60px; }
+.hi-slide .hi-next::before { content: '>'; }
+
+.hi-slide > ul
+{ 
+  list-style: none; 
+  position: relative;
+  width: 754px; 
+  height: 292px; 
+  margin: 0;
+  padding: 0;
+}
+  
+  
+.hi-slide > ul > li {
+  overflow: hidden; 
+  position: absolute; 
+  z-index: 0; 
+  left: 377px;
+  top: 146px; 
+  width: 0; 
+  height: 0; 
+  margin: 0; 
+  padding: 0;
+  border: 3px solid #fff;              
+  background-color: #333; 
+  cursor: pointer; }
+  
+.hi-slide > ul > li > img { width: 100%; height: 100%; background-position: center;}
+.hi-slide{position:relative;width:754px;height:292px;margin:115px auto 0}.hi-slide .hi-next,.hi-slide .hi-prev{position:absolute;top:50%;width:40px;height:80px;margin-top:-40px;border-radius:5px;line-height:80px;text-align:center;cursor:pointer;background-color:#666;color:#fff;opacity:.7;transition:all .6s;font-size:30px}.hi-slide .hi-next:hover,.hi-slide .hi-prev:hover{opacity:1;background-color:#444}.hi-slide .hi-prev{left:-60px}.hi-slide .hi-prev::before{content:'<'}.hi-slide .hi-next{right:-60px}.hi-slide .hi-next::before{content:'>'}.hi-slide>ul{list-style:none;position:relative;width:754px;height:292px;margin:0;padding:0}.hi-slide>ul>li{overflow:hidden;position:absolute;z-index:0;left:377px;top:146px;width:0;height:0;margin:0;padding:0;border:2px solid #fff;border-radius:5px;background-color:#333;cursor:pointer}.hi-slide>ul>li>img{width:100%;height:100%}
+
+@media (max-width: 600px) {
+   html,body{
+    width: 600px;
+    background-image: url('C:/Users/sniro/Desktop/amazon/תיק עבודות/INFINITY-FITNESS/‏‏IMG_5.jpg');
+  }
+  #js_anim{
+    width: 300px;
+  }
+  .hi-slide>ul{
+    width: 300px;
+  }
+  html{
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+ 
